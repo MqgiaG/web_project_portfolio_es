@@ -2,6 +2,14 @@
 
 ![Portfolio Preview](./images/profile.png)
 
+## 🌐 Sitio publicado
+
+Puedes visitar mi portafolio aquí:
+
+🔗 https://mqgiag.github.io/web_project_portfolio_es/
+
+---
+
 ## 🚀 Sobre mí
 
 Soy Ingeniero Industrial y desarrollador **Full-Stack Web Developer en formación**.
