@@ -1,6 +1,8 @@
 # 👨‍💻 Gerardo Rangel | Full-Stack Web Developer
 
-![Portfolio Preview](./images/profile.png)
+<p align="center">
+  <img src="./images/profile.png" alt="Portfolio Preview" width="250">
+</p>
 
 ## 🌐 Sitio publicado
 
