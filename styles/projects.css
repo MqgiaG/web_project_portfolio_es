@@ -12,8 +12,10 @@
 
 .projects__title {
 
-  font-family: "Archivo Black", sans-serif;
+  font-family: var(--title-font);
+
   font-size: 48px;
+
   margin-bottom: 50px;
 
 }
@@ -23,7 +25,9 @@
 .projects__grid {
 
   display: grid;
+
   grid-template-columns: repeat(2, 1fr);
+
   gap: 40px;
 
 }
@@ -95,7 +99,7 @@
 
 .project-card__title {
 
-  font-family: "Archivo Black", sans-serif;
+  font-family: var(--title-font);
 
   font-size: 28px;
 
@@ -109,6 +113,8 @@
 
   color: #bdbdbd;
 
+  font-family: var(--body-font);
+
   font-size: 18px;
 
   line-height: 1.6;
@@ -119,11 +125,26 @@
 
 
 
+/* LINKS */
+
 .project-card__links {
 
   display: flex;
 
   gap: 25px;
+
+  list-style: none;
+
+  padding: 0;
+
+  margin: 0;
+
+}
+
+
+.project-card__links li {
+
+  margin: 0;
 
 }
 
@@ -132,6 +153,8 @@
 .project-card__link {
 
   color: #7467ff;
+
+  font-family: var(--body-font);
 
   font-size: 18px;
 
@@ -161,17 +184,13 @@
 
   .project-card:first-child .project-card__image {
 
-
     height: 240px;
 
     object-fit: cover;
 
     object-position: center;
 
-
   }
-
-
 
 }
 
@@ -213,10 +232,7 @@
 
 
 
-  /* PORTAFOLIO PERSONAL */
-
   .project-card:nth-child(2) .project-card__image {
-
 
     height: 300px;
 
@@ -225,7 +241,6 @@
     object-position: center;
 
     background-color: #111111;
-
 
   }
 
@@ -282,13 +297,11 @@
 
   .project-card__image {
 
-
     height: 170px;
 
     object-fit: cover;
 
     object-position: center;
-
 
   }
 
@@ -304,11 +317,9 @@
 
   .project-card__technologies img {
 
-
     width: 28px;
 
     height: 28px;
-
 
   }
 
@@ -324,9 +335,7 @@
 
   .project-card__description {
 
-
     font-size: 15px;
-
 
   }
 
@@ -334,9 +343,7 @@
 
   .project-card__links {
 
-
     gap: 20px;
-
 
   }
 
@@ -344,20 +351,15 @@
 
   .project-card__link {
 
-
     font-size: 16px;
-
 
   }
 
 
 
-
   /* PORTAFOLIO PERSONAL IPHONE */
 
-
   .project-card:nth-child(2) .project-card__image {
-
 
     height: 220px;
 
@@ -366,7 +368,6 @@
     object-position: center;
 
     background-color: #111111;
-
 
   }
 
